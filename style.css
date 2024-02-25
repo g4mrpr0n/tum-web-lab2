@@ -22,6 +22,7 @@ body, html {
 	padding-right: 15%;
 	padding-bottom:10%;
 	text-align:center;
+  font-size:25px;
 
 }
 
@@ -58,6 +59,13 @@ table, th, td {
 }
 
 .vids {
-  border-radius: 100px;
+  border-radius: 25px;
   overflow: hidden;
+  width:400px;
+}
+
+.vidsbig {
+  border-radius: 25px;
+  overflow: hidden;
+  width:500px;
 }
