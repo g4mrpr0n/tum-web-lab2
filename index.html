@@ -3,25 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gaming Services</title>
+    <title>Nyx Gaming</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
-    <h1 id="bigtitle">
-        My Gaming Services
-    </h1>
-    
-    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
 
-    <div class="titles">
+</head>
+  <body>
+
+    
+    <img src="media/attempt3.png" class="center1">
+    <div >
     <table class="center">
 
-        <td class="menuitem"> <a href="#home">Home</a></td>
-        <td class="menuitem"> <a href="#servicecategories">Categories</a></td>
-        <td class="menuitem"> <a href="#pricing">Pricing</a></td>
-        <td class="menuitem"><a href="#faq">FAQ</a></td>
+        <td> <a href="#home"><img src="media/home.png" class="menuitem"></a></td>
+        <td> <a href="#servicecategories"><img src="media/cat.png" class="menuitem"></a></td>
+        <td> <a href="#pricing"><img src="media/pricing.png" class="menuitem"></a></td>
+        <td><a href="#faq"><img src="media/faq.png"class="menuitem" ></a></td>
     </table>
     </div>
 
@@ -35,10 +33,12 @@
     </div>
     </td>
     <td>
-    <video width="500" height="300" controls>
-        <source src="media/firstvid.mp4" type="video/mp4">
-      </video>
-    </td>
+        <div class="vids">
+            <video width="500" height="300" loop autoplay muted>
+                <source src="media/firstvid.mp4" type="video/mp4">
+            </video>
+            </td>
+        </div>
     </table>
 
 
@@ -48,31 +48,38 @@
 
     <table class="center">
         <td>
-            <video width="400" height="300" controls>
+            <div class="vids">
+            <video width="400" height="300" loop autoplay muted>
                 <source src="media/clips.mp4" type="video/mp4">
               </video>
+            </div>
         </td>
         
         <td>
-            <video width="400" height="300" controls>
+            <div class="vids">
+            <video width="400" height="300" loop autoplay muted>
                 <source src="media/tournaments.mp4" type="video/mp4">
               </video>
+            </div>
         </td>
 
         <td>
-            <video width="400" height="300" controls>
+            <div class="vids">
+            <video width="400" height="300" loop autoplay muted>
                 <source src="media/completionism.mp4" type="video/mp4">
               </video>
+            </div>
         </td>
     </table>
     
     <h1 align="center" id="pricing" class="titles">
         Pricing
     </h1>
+    <br>
     <div class="texts">
     <table class="center">
-        <tr>
-        <td>
+        <tr >
+        <td class="prices">
             <h2>
                 Clip creation
             </h2>
@@ -80,7 +87,7 @@
                 $1 per minute
             </h3>
         </td>
-        <td>
+        <td class="prices">
             <h2>
                 Tournaments
             </h2>
@@ -90,7 +97,7 @@
         </td>
     </tr>
         <tr>
-            <td colspan="2">
+            <td colspan="2" class="prices">
                 <h2>
                     Completionism
                 </h2>
@@ -101,7 +108,7 @@
         </tr>
     </table>
 </div>
-
+<br><br>
     <h1 align="center" id="faq" class="titles">
         FAQ
     </h1>
