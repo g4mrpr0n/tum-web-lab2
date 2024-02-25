@@ -13,16 +13,15 @@ body, html {
 
 
 .titles{
-  font-size: 30px;
+  font-size: 40px;
   font-style:oblique;
   color:#208c8c
 }
 #paragraph{
 	padding-left: 15%;
-	padding-right: 15%;
 	padding-bottom:10%;
 	text-align:center;
-  font-size:25px;
+  font-size:30px;
 
 }
 
@@ -39,7 +38,7 @@ body, html {
 }
 
 .texts{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 table, th, td {
@@ -51,6 +50,7 @@ table, th, td {
 .prices{
   border: 1px solid white;
   border-collapse: collapse;
+  font-size: 30px;
 }
 
 .menuitem{
