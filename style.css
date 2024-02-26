@@ -69,3 +69,8 @@ table, th, td {
   overflow: hidden;
   width:500px;
 }
+
+.paddings{
+  padding-left: 5%;
+  padding-right:5%;
+}
