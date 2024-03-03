@@ -78,3 +78,52 @@ table, th, td {
 .calltoaction:hover {
   filter: brightness(60%);
 }
+
+#mobile-only {
+  display: none; /* Hide on desktop */
+}
+
+.mobile-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mobile-bg {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* Adjust as needed */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Adjustments for tablets and smaller devices */
+  .titles {
+      font-size: 30px;
+  }
+
+  /* Mobile-only section */
+  #mobile-only {
+      display: block;
+  }
+
+  /* Hide desktop-only elements */
+  #home, #servicecategories, #pricing, #faq {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjustments for mobile phones */
+  .titles {
+      font-size: 20px;
+  }
+
+  .mobile-title {
+      font-size: 20px;
+  }
+
+  .mobile-bg {
+      width: 100%;
+  }
+}
