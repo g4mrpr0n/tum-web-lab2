@@ -81,13 +81,20 @@ table, th, td {
 
 .mascot {
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 0;
+  opacity: 0;
   width: 200px;
   height: auto;
   z-index: 999;
   animation: floatMascot 2s ease-in-out infinite alternate; 
 }
+
+.mascot.active {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
 @keyframes floatMascot {
   from {
       transform: translateY(0);
@@ -119,6 +126,15 @@ table, th, td {
   opacity: 1;
 }
 
+@media only screen and (max-width: 600px) {
+  .mascot {
+    width: 140px; /* 30% smaller than the original width */
+  }
+  .tooltip{
+    right:120px;
+    bottom: 80px;
+  }
+}
 
 .container {
   position: relative;
