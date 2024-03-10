@@ -12,14 +12,18 @@ body, html {
   }
 
 
+#servicecategories{
+  padding-bottom: 20px;
+}
+
 .titles{
   font-size: 40px;
   font-style:oblique;
   color:#208c8c
 }
 #paragraph{
-	padding-left: 15%;
-	padding-bottom:10%;
+	padding-left: 10px;
+  padding-right: 5%;
 	text-align:center;
   font-size:30px;
 
@@ -59,9 +63,9 @@ table, th, td {
 }
 
 .vids {
-  border-radius: 25px;
+  border-radius: 20px;
   overflow: hidden;
-  width:400px;
+  
 }
 
 .vidsbig {
@@ -71,8 +75,8 @@ table, th, td {
 }
 
 .paddings{
-  padding-left: 5%;
-  padding-right:5%;
+  padding-left: 25px;
+  padding-right:25px;
 }
 
 .calltoaction:hover {
@@ -134,8 +138,42 @@ table, th, td {
     right:120px;
     bottom: 80px;
   }
+  .flex-container {
+    flex-direction: column; /* Stack videos vertically */
+    align-items: center; /* Center-align videos */
+    padding-left: 0;
+  }
+  
+  .flex-container li {
+    margin-bottom: 20px; /* Add space between videos */
+    padding-left: 0;
+  }
+
+  #footer{
+    font-size: 20px;
+  }
+
+  #contactme{
+    width: 100%; /* Adjust as per your requirement */
+    margin: auto; /* Center the container horizontally */
+  }
+  .texts{
+    font-size: 20px;
+  }
+  
 }
 
 .container {
   position: relative;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  margin-bottom: 20px; /* Add space between rows */
+  padding-top: 10px;
+  padding-bottom:10px;
+  align-items: center;
+}
+
