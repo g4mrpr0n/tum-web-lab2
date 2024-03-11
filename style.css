@@ -3,17 +3,20 @@
 
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
 
+
+
 body, html {
-  background-color: rgb(19, 20, 20);
+  background-color: black;
   width: 100%;
 	height: 100%;
-  color: #ffffff;
+  color:white;
   font-family: Roboto Condensed;
   }
 
 
 #servicecategories{
   padding-bottom: 20px;
+  background-color: #000000;
 }
 
 .titles{
